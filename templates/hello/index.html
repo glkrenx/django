@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+{% load static  %}
+
+<html>
+
+    <head>
+        <title>Hello</title>
+    </head>
+
+    <body>
+        <h1>Welcome to the Page</h1>
+        hello world! <strong>{{ boldmessage }}</strong><br>
+        <a href="/movie/about/">About</a><br>
+	<img src="{% static 'me.jpg'  %}" alt="Picture of Me" height="500px"/>
+    </body>
+
+</html>
